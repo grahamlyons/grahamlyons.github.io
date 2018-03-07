@@ -26,6 +26,7 @@ github_username:  grahamlyons
 markdown: kramdown
 theme: minima
 
+google_analytics: UA-2711854-2
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
