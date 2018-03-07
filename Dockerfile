@@ -2,7 +2,7 @@ FROM ruby
 
 WORKDIR /usr/local/app
 
-COPY Gemfile Gemfile.lock ./
+COPY Gemfile ./
 RUN bundle
 
 COPY . .
