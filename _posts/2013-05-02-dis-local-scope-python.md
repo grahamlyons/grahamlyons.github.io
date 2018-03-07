@@ -1,6 +1,9 @@
+---
+layout: post
 title: Investigating Local Variable Scope in Python with the 'dis' Module
 date: 2013-05-02
-url_code: investigating-local-variable-scope-in-python-with-the-dis-module
+permalink: /article/investigating-local-variable-scope-in-python-with-the-dis-module
+---
 
 Compared to something like Javascript, scoping in Python is pretty easy to follow. However, I found a situation recently which was confusing at first glance until I examined the Python byte code using the ```dis``` module (_"dis - Disassembler of Python byte code into mnemonics"_, from the help documentation).
 

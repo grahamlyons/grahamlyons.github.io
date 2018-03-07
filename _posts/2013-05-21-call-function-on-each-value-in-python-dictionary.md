@@ -1,6 +1,9 @@
+---
+layout: post
 title: How to call a function on each value in a Python dictionary
 date: 2013-05-21
-url_code: how-to-call-a-function-on-each-value-in-a-python-dictionary
+permalink: /article/how-to-call-a-function-on-each-value-in-a-python-dictionary
+---
 
 Python has great support for mapping over lists or tuples, creating new structures containing the results of calling a function on the members of the original. I was looking for something similar for the values in a dictionary, maintaining the original keys, and I didn't find it described anywhere.
 

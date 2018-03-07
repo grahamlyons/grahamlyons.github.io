@@ -1,6 +1,9 @@
+---
+layout: post
 title: Problem Using a Coldfusion Struct Built From a Query
 date: 2009-11-11
-url_code: problem-using-a-coldfusion-struct-built-from-a-query
+permalink: /article/problem-using-a-coldfusion-struct-built-from-a-query
+---
 
 The other day I ran into an unusual problem when using a fairly simple Coldfusion struct containing string values and keyed by strings - nothing out of the ordinary. I was using the keys and the values to update fields in the database e.g.
 

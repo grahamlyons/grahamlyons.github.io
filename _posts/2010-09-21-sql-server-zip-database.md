@@ -1,6 +1,9 @@
+---
+layout: post
 title: SQL Server task to backup and zip a database
 date: 2010-09-21
-url_code: sql-server-task-to-backup-and-zip-a-database
+permalink: /article/sql-server-task-to-backup-and-zip-a-database
+---
 
 SQL server doesn't support backup compression before version 2008 so here's a script to backup and zip a database.
 

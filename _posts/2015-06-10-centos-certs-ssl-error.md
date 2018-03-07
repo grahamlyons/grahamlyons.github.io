@@ -1,6 +1,9 @@
+---
+layout: post
 title: Verifying SSL Connections to Amazon S3 in CentOS 6 via Ruby
 date: 2015-06-10
-url_code: verifying-ssl-connections-to-amazon-s3-in-centos-6-via-ruby
+permalink: /article/verifying-ssl-connections-to-amazon-s3-in-centos-6-via-ruby
+---
 
 Whilst building a development virtual machine to distribute to my colleagues I ran into a problem when using the Bundler gem in Ruby. Bundler is a dependency manager and so makes lots of HTTP requests to fetch the necessary Ruby gems and I found that `bundle install` commands kept failing with an SSL error:
 

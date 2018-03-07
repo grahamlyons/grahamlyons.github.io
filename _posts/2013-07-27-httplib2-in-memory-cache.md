@@ -1,6 +1,9 @@
+---
+layout: post
 title: A Simple In-Memory Cache for Python's Httplib2
 date: 2013-07-27
-url_code: a-simple-in-memory-cache-for-python-s-httplib2
+permalink: /article/a-simple-in-memory-cache-for-python-s-httplib2
+---
 
 When making HTTP requests programmatically it's always nice to have a transparent caching mechanism to make things more efficient when you start fetching the same resource thousands of times a second. I was very close to implementing one with Python's ```httplib``` or ```urllib``` libraries when I came across exactly the functionality I needed in [```httplib2```](https://code.google.com/p/httplib2/). Huzzah! No need to write (and maintain) anything myself - it's all taken care of by a robust, widely used library.
 

@@ -1,6 +1,9 @@
+---
+layout: post
 title: Using Python to delete old files and keep newest ones
-url_code: using-python-to-delete-old-files-and-keep-newest-ones
+permalink: /article/using-python-to-delete-old-files-and-keep-newest-ones
 date: 2010-09-30
+---
 
 This is a very simple Python script which searches a directory, optionally including a file pattern, and deletes the oldest files.
 

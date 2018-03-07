@@ -1,6 +1,9 @@
+---
+layout: post
 title: Hello World WAR Using Tomcat and Maven on Ubuntu
 date: 2013-06-18
-url_code: hello-world-war-using-tomcat-and-maven-on-ubuntu
+permalink: /article/hello-world-war-using-tomcat-and-maven-on-ubuntu
+---
 
 Maven is the de facto build tool of Java projects and Tomcat is a very widely used and well-established servlet container. Together they provide an excellent basis for Java projects on the web. To that end I decided to document, from a fresh install of Ubuntu 12.04, the steps required to package and deploy a simple Java webapp, packaged as a WAR, on Tomcat using Maven. At the time of writing the versions used were Tomcat 7 and Maven 3.
 

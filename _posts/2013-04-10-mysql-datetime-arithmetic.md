@@ -1,6 +1,9 @@
+---
+layout: post
 title: Correctly Handling Timestamp Arithmetic in MySQL
 date: 2013-04-10
-url_code: correctly-handling-timestamp-arithmetic-in-mysql
+permalink: /article/correctly-handling-timestamp-arithmetic-in-mysql
+---
 
 Working with dates and times in databases, and even software in general, can be tricky. Different timezones and formats to parse are all pitfalls waiting to trip up the unwary engineer. MySQL is a widely used database and in its default configuration is very forgiving. This certainly contributes to its popularity but unfortunately lays some traps for those of us who are careless.
 

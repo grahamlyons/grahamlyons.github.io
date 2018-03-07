@@ -1,6 +1,8 @@
+---
+layout: post
 title: Debugging circular module imports in Python with pdb
 date: 2013-03-23
-url_code: debugging-circular-module-imports-in-python-with-pdb
+permalink: /article/debugging-circular-module-imports-in-python-with-pdb
 
 I find myself in awe of anyone who can competently use [gdb](http://www.gnu.org/software/gdb/). Occasionally I find myself dipping into it and pulling out some very basic information but that's about my limit. When I saw that Python had a similarly named [pdb](http://docs.python.org/2/library/pdb.html) module I was instantly intrigued because I write a lot more Python than I do C. 
 

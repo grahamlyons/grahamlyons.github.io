@@ -1,6 +1,9 @@
+---
+layout: post
 title: SQLite General Error 14
 date: 2009-12-24
-url_code: sqlite-general-error-14
+permalink: /article/sqlite-general-error-14
+---
 
 Recently I got a 'General Error 14' message when I tried to write to an SQLite database...
 

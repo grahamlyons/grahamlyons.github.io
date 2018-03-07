@@ -1,6 +1,9 @@
+---
+layout: post
 title: Resolving Javascript Promises using Events
 date: 2012-06-17
-url_code: resolving-javascript-promises-using-events
+permalink: /article/resolving-javascript-promises-using-events
+---
 
 In playing around with Node.js I wrote a simple ‘view’ module for which I had a particular API in mind. I wanted to be able to pass it a file to instantiate it, set variables on the object and then render it. This was complicated slightly by the asynchronous file access getting the template file and I decided, correctly or not, to handle this using a promise and an event emitter.
 
