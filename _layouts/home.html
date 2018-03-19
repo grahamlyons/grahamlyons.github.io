@@ -9,13 +9,15 @@ layout: default
 
   {{ content }}
 
+  {% assign list_size = page.list_size | default: 5 %}
   {% if site.posts.size > 0 %}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
-      {% for post in site.posts %}
+      {% assign posts = site.posts | slice:0, list_size %}
+      {% for post in posts %}
       <li>
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <date class="post-meta">{{ post.date | date: date_format }}</date>
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
@@ -27,7 +29,9 @@ layout: default
       </li>
       {% endfor %}
     </ul>
-
+  {% endif %}
+  {% if site.posts.size > list_size %}
+    <a href="{% link articles.md %}">more...</a>
   {% endif %}
 
 </div>
