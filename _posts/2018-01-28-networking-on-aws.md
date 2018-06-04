@@ -7,8 +7,6 @@ tags: AWS, Networking
 permalink: /article/everything-you-need-to-know-about-networking-on-aws
 ---
 
-# Everything You Need To Know About Networking On AWS
-
 Disclaimer: I'm not a network engineer and never have been - a tame network engineer has been consulted to ensure factual and terminological accuracy. The following is an in-exhaustive run down of everything I've learnt from building and using network infrastructure on Amazon Web Services. If you find you have no reference point for this information then have a poke around the "VPC" section of the AWS control panel (or get in touch to tell me I'm talking nonsense).
 
 ## Parts of a Network You Should Know About

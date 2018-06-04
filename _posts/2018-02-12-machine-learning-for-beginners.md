@@ -7,8 +7,6 @@ cover_image: https://thepracticaldev.s3.amazonaws.com/i/m1t3xxls09t25yk9c1a0.png
 permalink: /article/machine-learning-for-the-lazy-beginner
 ---
 
-# Machine Learning for the Lazy Beginner
-
 This article was prompted by a tweet I saw which asked for a walkthrough on training a machine learning service to recognise new members of 3 different data sets.
 
 > @rem: Being lazy here: I'm after a (machine learning) service that I can feed three separate datasets (to train with), and then I want to ask: "which dataset is _this_ new bit of content most like".

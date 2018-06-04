@@ -7,8 +7,6 @@ cover_image: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/MacBook_R
 permalink: /article/why-my-development-environment-is-the-best
 ---
 
-# Why My Development Environment is the Best
-
 _Or more accurately, what works for me right now._
 
 As software developers we spend a lot of our day at the keyboard, typing. It's natural that we spend time making that environment a pleasant and productive place in which to work.
