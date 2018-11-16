@@ -245,7 +245,7 @@ $ cat random.txt
 leading-piranha
 ```
 
-## Variables
+## Variables
 
 In the `example.tf` file you can see that we declared a `variable` called `name_length` and referenced it in the `random_pet` resource (`length = "${var.name_length}"`); why not just hard code that number?
 
