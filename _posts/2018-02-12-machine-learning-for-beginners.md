@@ -17,7 +17,7 @@ My first thought was that this sounds like a [_classification_](https://en.wikip
 
 I didn't have a walkthrough in mind but I do know how to train a classifier to perform this exact task, so here is my walkthrough of classifying text documents using Javascript.
 
-## Do You Have Adequate Supervision?
+## Do You Have Adequate Supervision?
 
 Machine learning can be classified (no pun intended) as either supervised or unsupervised. The latter refers to problems where the data you feed to the algorithm has no predetermined label. You might have a bunch of text documents and you want to find out if they can be grouped together into similar categories - that would be an example of [_clustering_](https://en.wikipedia.org/wiki/Cluster_analysis).
 
