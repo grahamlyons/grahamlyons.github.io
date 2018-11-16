@@ -100,10 +100,9 @@ The routing table which makes a subnet public needs to reference an Internet gat
         +-->| ig-123 |
             |        +-----> The Internet
             +--------+
-
 ```
 
-### NAT Gateways
+### NAT Gateways
 
 If you have an EC2 instance in a private subnet - one which doesn't allow traffic from the Internet to reach it - then there's also no way for IP packets to reach the Internet. We need a mechanism for sending those packets out, and then routing the replies correctly. This is called network address translation and is very likely done in your house by your wifi router.
 
